@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sol_Code_VueDemo", "Sol_Code_VueDemo\Sol_Code_VueDemo.csproj", "{BB85B3F4-6988-430A-BA8E-F80729D7A84A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sol_Code_VueDemo", "Sol_Code_VueDemo\Sol_Code_VueDemo.csproj", "{BB85B3F4-6988-430A-BA8E-F80729D7A84A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Entity", "01_Entity", "{F968B1DB-2E46-4F68-81AC-34136D1881F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Infrastructure", "02_Infrastructure", "{5BC7F1D9-7D7B-4B61-BBBF-088FD58BFCA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Domain", "03_Domain", "{A9289250-2118-40EC-865C-A1C76EEE5617}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Application", "04_Application", "{B98D654F-BBC8-48EF-975A-6D8BAB1C33DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo.Entity", "01_Entity\TestDemo.Entity\TestDemo.Entity.csproj", "{EF2EA805-8ACD-438C-B768-DE7AF32A5E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo.Infrastructure", "02_Infrastructure\TestDemo.Infrastructure\TestDemo.Infrastructure.csproj", "{43CCC251-965B-4A6D-AB10-4F4B7014B6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo.Domain", "03_Domain\TestDemo.Domain\TestDemo.Domain.csproj", "{5741D502-4152-4AF0-AC11-877AB61198E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDemo.Application", "04_Application\TestDemo.Application\TestDemo.Application.csproj", "{0384FBFD-C8A9-4FC8-A980-1F1C6762F988}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +31,31 @@ Global
 		{BB85B3F4-6988-430A-BA8E-F80729D7A84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB85B3F4-6988-430A-BA8E-F80729D7A84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB85B3F4-6988-430A-BA8E-F80729D7A84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2EA805-8ACD-438C-B768-DE7AF32A5E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2EA805-8ACD-438C-B768-DE7AF32A5E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2EA805-8ACD-438C-B768-DE7AF32A5E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2EA805-8ACD-438C-B768-DE7AF32A5E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CCC251-965B-4A6D-AB10-4F4B7014B6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CCC251-965B-4A6D-AB10-4F4B7014B6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CCC251-965B-4A6D-AB10-4F4B7014B6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CCC251-965B-4A6D-AB10-4F4B7014B6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5741D502-4152-4AF0-AC11-877AB61198E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5741D502-4152-4AF0-AC11-877AB61198E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5741D502-4152-4AF0-AC11-877AB61198E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5741D502-4152-4AF0-AC11-877AB61198E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0384FBFD-C8A9-4FC8-A980-1F1C6762F988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0384FBFD-C8A9-4FC8-A980-1F1C6762F988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0384FBFD-C8A9-4FC8-A980-1F1C6762F988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0384FBFD-C8A9-4FC8-A980-1F1C6762F988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF2EA805-8ACD-438C-B768-DE7AF32A5E37} = {F968B1DB-2E46-4F68-81AC-34136D1881F4}
+		{43CCC251-965B-4A6D-AB10-4F4B7014B6DA} = {5BC7F1D9-7D7B-4B61-BBBF-088FD58BFCA3}
+		{5741D502-4152-4AF0-AC11-877AB61198E9} = {A9289250-2118-40EC-865C-A1C76EEE5617}
+		{0384FBFD-C8A9-4FC8-A980-1F1C6762F988} = {B98D654F-BBC8-48EF-975A-6D8BAB1C33DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B08D53F-C9C7-4F06-BFF2-50EE752D691C}
